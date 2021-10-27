@@ -1,0 +1,108 @@
+{
+    "files.autoSave": "onFocusChange",
+    "editor.lineNumbers": "relative",
+    "vim.easymotion": true,
+    "vim.incsearch": true,
+    "vim.useSystemClipboard": true,
+    "vim.useCtrlKeys": false,
+    "vim.hlsearch": true,
+    "vim.sneak": true,
+    "vim.easymotionMarkerooundColor": "#020202",
+    "vim.normalModeKeyBindings": [
+        {
+            "before": [
+                "<tab>"
+            ],
+            "commands": [
+                "workbench.action.nextEditor"
+            ]
+        },
+        {
+            "before": [
+                "<S-tab>"
+            ],
+            "commands": [
+                "workbench.action.previousEditor"
+            ]
+        },{
+            "before": [
+                "<tab>"
+            ],
+            "commands": [
+                "workbench.action.nextEditor"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "s"
+            ],
+            "commands": [
+                "editor.foldAllExcept"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "f"
+            ],
+            "commands": [
+                "editor.unfoldAll"
+            ]
+        },
+    ],
+    "vim.visualModeKeyBindings": [
+        {
+            "before": [
+                ">"
+            ],
+            "after": [
+                ">",
+                "g",
+                "v"
+            ]
+        },
+        {
+            "before": [
+                "<"
+            ],
+            "after": [
+                "<",
+                "g",
+                "v"
+            ]
+        },
+    ],
+    "vim.normalModeKeyBindingsNonRecursive": [
+        {
+            "before": [
+                "<leader>",
+                "a"
+            ],
+            "after": [
+                "^"
+            ]
+        },
+        {
+            "before": [
+                "<leader>", 
+                "e"
+            ],
+            "after": [
+                "$"
+            ]
+        }
+    ],
+    "vim.leader": "<space>",
+    "vim.handleKeys": {
+        "<C-a>": false,
+        "<C-f>": false, // VS Code new marker @ next occurence "<C-d>": false, // Copy "<C-c>": false, // Cut "<C-x>": false, // Paste "<C-v>": false, "<C-z>": false, "<C-y>": false },
+    },
+    "workbench.activityBar.visible": false,
+    "breadcrumbs.enabled": false,
+    "editor.minimap.enabled": false,
+    "[javascriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "terminal.integrated.defaultProfile.windows": "Git Bash"
+    }
