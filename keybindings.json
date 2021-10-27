@@ -1,0 +1,117 @@
+[
+    {
+      "key": "ctrl+tab",
+      "command": "workbench.action.nextEditor"
+    },
+    {
+      "key": "ctrl+shift+tab",
+      "command": "workbench.action.previousEditor"
+    },
+    {
+      "key": "tab",
+      "command": "selectNextSuggestion",
+      "when": "editorTextFocus && suggestWidgetMultipleSuggestions && suggestWidgetVisible"
+    },
+    {
+      "key": "shift+tab",
+      "command": "selectPrevSuggestion",
+      "when": "editorTextFocus && suggestWidgetMultipleSuggestions && suggestWidgetVisible"
+    },
+    {
+      "key": "ctrl+alt+v",
+      "command": "toggleVim"
+    },
+    {
+      "key": "shift+alt+j",
+      "command": "editor.action.moveLinesDownAction"
+    },
+    {
+      "key": "shift+alt+k",
+      "command": "editor.action.moveLinesUpAction",
+      "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+      "key": "ctrl+x",
+      "command": "workbench.action.closeActiveEditor"
+    },
+    {
+      "key": "ctrl+w",
+      "command": "-workbench.action.closeActiveEditor"
+    },
+    {
+      "key": "ctrl+t",
+      "command": "workbench.action.terminal.toggleTerminal",
+      "when": "terminal.active"
+    },
+    {
+      "key": "ctrl+`",
+      "command": "-workbench.action.terminal.toggleTerminal",
+      "when": "terminal.active"
+    },
+    {
+      "key": "ctrl+shift+t",
+      "command": "workbench.action.terminal.findNext",
+      "when": "terminalFindFocused && terminalProcessSupported || terminalFocus && terminalProcessSupported"
+    },
+    {
+      "key": "f3",
+      "command": "-workbench.action.terminal.findNext",
+      "when": "terminalFindFocused && terminalProcessSupported || terminalFocus && terminalProcessSupported"
+    },
+    {
+      "key": "ctrl+j",
+      "command": "workbench.action.terminal.focusNext",
+      "when": "terminalFocus && terminalProcessSupported && !terminalEditorFocus"
+    },
+    {
+      "key": "ctrl+pagedown",
+      "command": "-workbench.action.terminal.focusNext",
+      "when": "terminalFocus && terminalProcessSupported && !terminalEditorFocus"
+    },
+    {
+      "key": "ctrl+shift+t",
+      "command": "workbench.action.terminal.new",
+      "when": "terminalProcessSupported"
+    },
+    {
+      "key": "ctrl+shift+`",
+      "command": "-workbench.action.terminal.new",
+      "when": "terminalProcessSupported"
+    },
+    {
+      "key": "ctrl+k",
+      "command": "workbench.action.terminal.focusPrevious",
+      "when": "terminalFocus && terminalProcessSupported && !terminalEditorFocus"
+    },
+    {
+      "key": "ctrl+pageup",
+      "command": "-workbench.action.terminal.focusPrevious",
+      "when": "terminalFocus && terminalProcessSupported && !terminalEditorFocus"
+    },
+    {
+      "key": "ctrl+e",
+      "command": "workbench.action.toggleSidebarVisibility"
+    },
+    {
+      "key": "ctrl+b",
+      "command": "-workbench.action.toggleSidebarVisibility"
+    },
+    {
+      "key": "ctrl+w",
+      "command": "workbench.action.splitEditor"
+    },
+    {
+      "key": "ctrl+\\",
+      "command": "-workbench.action.splitEditor"
+    },
+    {
+      "key": "ctrl+n",
+      "command": "extension.advancedNewFile"
+    },
+    {
+      "key": "ctrl+alt+n",
+      "command": "-extension.advancedNewFile"
+    }
+  
+]
+
